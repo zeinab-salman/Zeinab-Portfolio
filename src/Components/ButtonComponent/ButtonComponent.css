@@ -1,0 +1,11 @@
+.no-color {
+  color: #d4a76a;
+  background-color: rgba(75, 72, 72, 0.176);
+  box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.4);
+  border: 1px solid #d4a76a;
+}
+.yello {
+  background-color: #d4a76a;
+  box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.4);
+
+}

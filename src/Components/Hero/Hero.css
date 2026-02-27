@@ -1,0 +1,18 @@
+
+.profile-img{
+border-bottom: 2px solid #d4a76a ;
+
+}
+.hero{
+   position: relative;
+   z-index: 10;
+}
+.hero h2{
+   font-size: 6rem;
+}
+@media (max-width:1000px) {
+   .hero{
+   flex-direction: column-reverse;
+   gap: 10px;
+   } 
+}

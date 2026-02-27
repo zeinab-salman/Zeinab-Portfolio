@@ -1,1 +1,88 @@
 @import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&family=Syne:wght@400..800&display=swap");
+
+.jj {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+ 
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+
+  font-family: "Playfair Display", serif;
+   background: linear-gradient(to right,hsl(var(--background)),rgb(48, 27, 51));
+ 
+}
+
+:root {
+  --background: 225 25% 10%;
+  --foreground: 40 20% 90%;
+  --card: 225 20% 14%;
+  --card-foreground: 40 20% 90%;
+  --popover: 225 20% 14%;
+  --popover-foreground: 40 20% 90%;
+  --primary: 40 50% 70%;
+  --primary-foreground: 225 25% 10%;
+  --secondary: 340 30% 65%;
+  --secondary-foreground: 225 25% 10%;
+  --muted: 225 15% 18%;
+  --muted-foreground: 225 10% 55%;
+  --accent: 270 30% 70%;
+  --accent-foreground: 225 25% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 225 15% 20%;
+  --input: 225 15% 20%;
+  --ring: 40 50% 70%;
+  --radius: 0.75rem;
+  --glass: 225 20% 14%;
+  --glass-border: 225 15% 25%;
+  --gold: 40 50% 70%;
+  --rose: 340 30% 65%;
+  --lavender: 270 30% 70%;
+  --sidebar-background: 225 25% 10%;
+  --sidebar-foreground: 40 20% 90%;
+
+  --sidebar-primary-foreground: 225 25% 10%;
+  --sidebar-accent: 225 15% 18%;
+  --sidebar-accent-foreground: 40 20% 90%;
+  --sidebar-border: 225 15% 20%;
+  --sidebar-ring: 40 50% 70%;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #d4a76a 0%, #a876aa 50%, #e0c3fc 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  font-family: "Serif", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  display: inline-block;
+}
+.glow-gold
+
+ {
+    box-shadow: 0 0 40px -10px hsl(var(--primary) / .4);
+}
+.glass-effect {
+  background: rgba(255, 255, 255, 0.082) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  border-radius: 20px !important;
+  
+}
