@@ -1,9 +1,14 @@
 import React from 'react'
 import "./MyToolkitItem.css"
-export default function MyToolkitItem({tool,color}) {
+import { cardVariants } from '../Variants/Variants'
+import { motion } from 'framer-motion'
+export default function MyToolkitItem({tool,color,icon:Icon}) {
   return (
-    <div className={`toolkit-item flex items-center justify-center px-10 py-3 rounded-full ${color} `}>
+    <motion.div className={`toolkit-item flex items-center justify-center px-10 py-3 rounded-full gap-2 ${color} `}
+       variants={cardVariants}
+    >
+      <Icon className="icon-skill"/>
       <p className='text-2xl' >{tool}</p>
-    </div>
+    </motion.div>
   )
 }
