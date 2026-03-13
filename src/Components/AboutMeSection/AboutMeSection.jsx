@@ -24,7 +24,7 @@ export default function AboutMeSection() {
             <div className="flex ">
               <TechRadar />
               <h3 className=" gradient-text text-3xl ml-4">
-                Hi, I'm Zeinab Salman - Front-End Developer.
+                Hi, I'm Zeinab Salman Front-End Developer.
               </h3>
             </div>
             <p className="about-info mt-5 w-full text-2xl text-gray-500">

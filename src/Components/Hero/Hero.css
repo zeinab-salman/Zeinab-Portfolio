@@ -34,7 +34,7 @@ width: 100%;
   text-align: center;
    }
    .hero-title p{
-font-size: 1.6rem !important;
+font-size: 1.2rem !important;
 width: 100%;
   text-align: center;
 
@@ -45,6 +45,7 @@ width: 100%;
 
    }
 .hero{
+padding-top: 0px;
 
   padding-left: 20px;
   padding-right: 20px;

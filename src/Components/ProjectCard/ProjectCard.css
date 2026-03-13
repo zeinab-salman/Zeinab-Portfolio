@@ -13,4 +13,7 @@
    .project-card{
     width: 100% !important;
    } 
+   .project-card p{
+    font-size: 1.2rem;
+   }
 }

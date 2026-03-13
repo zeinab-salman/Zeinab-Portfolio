@@ -90,3 +90,15 @@
     align-self: self-start;
 }
 }
+@media (max-width:400px) {
+  .email-div p,.address-div p, .phone-div p{
+  font-size: 1rem;
+  
+  }
+   .yello11{
+    font-size: 2rem !important;
+  }
+  .let-us-connect-div h3{
+    font-size:1.4rem ;
+  }
+}

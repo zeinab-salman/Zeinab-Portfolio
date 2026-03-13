@@ -22,7 +22,7 @@ export default function ContactMeSection() {
       <div className="info-div flex justify-between items-center w-full flex-wrap mt-10">
         <div className="email-div flex justify-center items-center gap-5 text-[1.8rem]">
           <MdEmail className="yello11 text-[3rem]" />
-          <p className="gradient-text">zeinabslman004@gmail.com</p>
+          <p className="gradient-text">zeinabslman004 @gmail.com</p>
         </div>
 
         <div className="address-div flex justify-center items-center text-[1.8rem] gap-5">
