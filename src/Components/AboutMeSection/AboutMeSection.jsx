@@ -24,10 +24,10 @@ export default function AboutMeSection() {
             <div className="flex ">
               <TechRadar />
               <h3 className=" gradient-text text-3xl ml-4">
-                Hi, I'm Zeinab Khalil Salman - Front-End Developer.
+                Hi, I'm Zeinab Salman - Front-End Developer.
               </h3>
             </div>
-            <p className="mt-5 w-full text-2xl text-gray-500">
+            <p className="about-info mt-5 w-full text-2xl text-gray-500">
               I am a detail-oriented Informatics Engineering graduate with a
               passion for bridging the gap between complex logic and elegant
               design. My journey in tech is fueled by a commitment to "Crafting
