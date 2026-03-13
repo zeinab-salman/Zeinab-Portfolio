@@ -1,10 +1,10 @@
-/*.my-projects-section h2{
+.my-projects-section h2{
  font-size: 4rem;
-}*/
+}
 @media (max-width:1000px) {
     .my-projects-section{
  padding-left: 20px;
     padding-right: 20px;
-
+padding-top: 0px;
     }
 }

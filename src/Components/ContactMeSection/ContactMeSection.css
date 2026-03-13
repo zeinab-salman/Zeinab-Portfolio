@@ -1,6 +1,6 @@
-/*.contact-me-section h2 {
+.contact-me-section h2 {
   font-size: 4rem;
-}*/
+}
 .yello-text {
   color: #d4a76a;
 }
@@ -28,6 +28,9 @@
   transition: 1s;
 }
 @media (max-width: 1000px) {
+  .contact-me-section{
+    padding-top: 0px;
+  }
   .social {
     gap: 2px !important;
   
@@ -92,7 +95,7 @@
 }
 @media (max-width:400px) {
   .email-div p,.address-div p, .phone-div p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   
   }
    .yello11{
@@ -101,4 +104,7 @@
   .let-us-connect-div h3{
     font-size:1.4rem ;
   }
+  .icon-div h5{
+    font-size:1.2rem !important}
+  
 }

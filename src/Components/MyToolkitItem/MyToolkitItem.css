@@ -26,8 +26,9 @@ font-size: 3rem;
   width: 45%;
   padding:10px 10px;
   flex-direction: column;
-width: 100%;
- 
-}
+  border: none !important;
+width: 40%;}
+ .toolkit-item p{font-size: 1.2rem;}
+
 
 }

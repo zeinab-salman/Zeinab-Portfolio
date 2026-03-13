@@ -8,7 +8,7 @@ export default function MyToolkitItem({tool,color,icon:Icon}) {
        variants={cardVariants}
     >
       <Icon className="icon-skill"/>
-      <p className='text-2xl' >{tool}</p>
+      <p className='text-2xl text-center' >{tool}</p>
     </motion.div>
   )
 }
