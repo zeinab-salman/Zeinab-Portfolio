@@ -15,7 +15,7 @@ export default function ContactMeSection() {
   return (
     <section className="contact-me-section  flex flex-col justify-center items-center  w-full px-10 py-10">
       <TitleComponent
-        subTitle=" EXPERTISE"
+        subTitle="GET IN TOUCH"
         title="Contact Me"
         typeClass="flex flex-col items-center justify-center text-center"
       />
@@ -40,32 +40,32 @@ export default function ContactMeSection() {
         <div className="connect-info-div  flex justify-between items-center w-full flex-wrap ">
           <div className="social flex justify-start items-center  text-[2rem]  w-max mt-20 gap-4 ">
             <div className="social1 flex justify-start items-center w-max  gap-4 ">
-              <div className="icon-div">
+              <a className="icon-div" href="https://www.facebook.com/share/189RUgy6x1/ ">
                 <SiFacebook className="   yello11" />
                 <h5 className="  text-center text-2xl yello-text">Facebook</h5>
-              </div>
-              <div className="icon-div">
+              </a>
+              <a className="icon-div" href="https://www.instagram.com/zeinab.salman1?igsh=MTBhODJjeGZ5ZHdjbg== ">
                 <AiFillInstagram className="yello11" />
                 <h5 className="text-center text-2xl yello-text">Instagram</h5>
-              </div>
-              <div className="icon-div">
+              </a>
+              <a className="icon-div" href="https://www.linkedin.com/in/zeinab-salman?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
                 <FaLinkedin className="yello11" />
                 <h5 className="text-center text-2xl yello-text">Linkedin</h5>
-              </div>
+              </a>
             </div>
             <div className=" social2 flex justify-start w-max items-center  gap-4">
-              <div className="icon-div">
+              <a className="icon-div" href="https://wa.me/qr/7FGEYU7ISBAWI1 ">
                 <IoLogoWhatsapp className="yello11" />
                 <h5 className="text-center text-2xl yello-text">Whatsapp</h5>
-              </div>
-              <div className="icon-div">
+              </a>
+              <a className="icon-div" href=" https://github.com/zeinab-salman">
                 <FaGithub className="yello11" />
                 <h5 className="text-center text-2xl yello-text">GitHub</h5>
-              </div>
-              <div className="icon-div">
+              </a>
+              <a className="icon-div" href="https://t.me/Zeinab_Salman1 ">
                 <FaTelegram className="yello11" />
                 <h5 className="text-center text-2xl yello-text">Telegram</h5>
-              </div>
+              </a>
             </div>
           </div>
           <h3 className=" let-build-text  gradient-text text-[2.1rem] w-[30%] mt-20 text-center">

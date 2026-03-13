@@ -11,7 +11,7 @@ export default function MyToolkitSection() {
     <RevealSection>
       <section className="my-toolkit-section flex flex-col justify-center items-center w-full px-10 py-10">
         <TitleComponent
-          subTitle=" EXPERTISE"
+          subTitle="TECHNOLOGIES"
           title="My Toolkit"
           typeClass="flex flex-col items-center justify-center text-center "
         />

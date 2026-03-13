@@ -12,7 +12,7 @@ export default function MyProjectsScetion() {
   return (
     <section className="my-projects-section flex flex-col justify-center items-center w-full px-10 py-10">
       <TitleComponent
-        subTitle=" EXPERTISE"
+        subTitle="SELECTED WORKS"
         title="My Projects"
         typeClass="flex flex-col items-center justify-center text-center "
       />
@@ -29,16 +29,19 @@ export default function MyProjectsScetion() {
           img={img1}
           projectTitle="PORTA"
           description="A portfolio builder & talent discovery platform. Built with React.js - Tailwind CSS - Framer motion - Context API."
+          href="https://gorgeous-sunshine-94b7d3.netlify.app/ "
         />
           <ProjectCard
           img={img2}
           projectTitle="LUXEShop"
           description="Mini online shop & admin dashboard using React.js - context API - Framer motion - Recharts."
+          href="https://grand-ganache-e741d2.netlify.app/ "
         />
           <ProjectCard
           img={img3}
           projectTitle="Datawarehouse"
           description="Datawarehouse is One-Page-Website using HTML5 - CSS3 -  Bootstrap featuring a sleek responsive design."
+          href="https://zeinab-salman.github.io/Data-Warehouse/"
         />
       </motion.div>
     </section>

@@ -12,7 +12,7 @@ border: 1px solid #e0c3fc;
 
 }
 @media (max-width:500px) {
-  .feature-card p{font-size: 1.2rem;}
+  .feature-card p{font-size: 1.1rem;}
   .feature-card{
     align-items: start;
   }

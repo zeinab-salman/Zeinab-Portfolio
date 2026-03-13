@@ -15,7 +15,7 @@ export default function AboutMeSection() {
     <RevealSection>
       <section className=" about-me-section  flex flex-col justify-center items-center w-full px-10 py-10 ">
         <TitleComponent
-          subTitle=" EXPERTISE"
+          subTitle=" THE STORY"
           title="About Me"
           typeClass="flex flex-col items-center justify-center text-center "
         />
