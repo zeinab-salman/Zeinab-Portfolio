@@ -1,3 +1,12 @@
 .title-component h5{
     color: #d4a76a;
+  
+}
+@media (max-width:600px) {
+      .title-component h2{
+font-size:3rem !important;
+
+  text-align: center;
+
+   }
 }

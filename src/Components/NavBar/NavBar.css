@@ -6,3 +6,6 @@ color: #d4a76a;
     color:#a876aa ;
     font-size: 2rem;
 }
+@media (max-width:1000px) {
+    .nav-bar{display: none;}
+}

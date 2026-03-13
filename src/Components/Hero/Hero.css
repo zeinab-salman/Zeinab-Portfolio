@@ -8,11 +8,60 @@ border-bottom: 2px solid #d4a76a ;
    z-index: 10;
 }
 .hero h2{
-   font-size: 6rem;
+   font-size:6rem;
 }
 @media (max-width:1000px) {
    .hero{
    flex-direction: column-reverse;
+  
    gap: 10px;
+   
    } 
+   .left-side{
+      justify-content: center;
+      align-items: center;
+   }
+.hero-title{text-align: center;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+align-items: center;}
+ 
+   .hero-title h2{
+font-size:3rem !important;
+width: 100%;
+  text-align: center;
+   }
+   .hero-title p{
+font-size: 1.6rem !important;
+width: 100%;
+  text-align: center;
+
+   }
+   .right-side img{
+      width: 100% !important;
+      height: 30%;
+
+   }
+.hero{
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btns-hero{
+justify-content: center;
+}
+.profile-img{
+   width: 22rem !important;
+   height: 22rem !important;
+}
+}
+@media (max-width:500px) {
+      .hero-title h2{
+font-size: 2.6rem !important;
+width: 100%;
+  text-align: center;
+
+   }
 }

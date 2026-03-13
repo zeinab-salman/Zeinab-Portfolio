@@ -1,6 +1,16 @@
 .card-title{
     color:#d4a76a ;
 }
-.card-discreption{
-    color:#a876aa ;
+.card-description{
+    color: #a876aa !important;
+}
+@media (max-width:1000px) {
+   .project-card{
+    width: 40% !important;
+   } 
+}
+@media (max-width:800px) {
+   .project-card{
+    width: 100% !important;
+   } 
 }

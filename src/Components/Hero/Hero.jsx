@@ -51,18 +51,19 @@ export default function Hero() {
           subTitle="Front-End Developer"
           title="Crafting digital elegance"
           text="I design and build beautiful, performant web experiences with meticulous attention to detail and a passion for pixel-perfect craft."
+          typeClass="hero-title"
         />
 
-        <div className="flex justify-start items-center gap-5 py-10 flex-wrap">
+        <div className="btns-hero  flex justify-start items-center gap-5 py-10 flex-wrap">
           <ButtonComponent
-            text="View Work"
+            text="Download CV"
             typeclass="yello"
-            padding="px-10 py-5 rounded-full"
+            padding="px-10 py-5 "
           />
           <ButtonComponent
             text="Say Hello"
             typeclass="no-color"
-            padding="px-10 py-5 rounded-full"
+            padding="px-15 py-5 "
           />
         </div>
       </div>

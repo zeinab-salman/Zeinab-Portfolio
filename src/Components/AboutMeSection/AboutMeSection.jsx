@@ -19,7 +19,7 @@ export default function AboutMeSection() {
           title="About Me"
           typeClass="flex flex-col items-center justify-center text-center "
         />
-        <div className="flex justify-between items-start mt-10 ">
+        <div className="flex justify-between items-start mt-10 flex-wrap gap-5">
           <div className="about-div flex flex-col justify-center items-start glass-effect px-10 pt-10 pb-20  w-[60%]">
             <div className="flex ">
               <TechRadar />
@@ -42,7 +42,7 @@ export default function AboutMeSection() {
             </p>
           </div>
           <motion.div
-            className="flex-col justify-center items-center w-[38%] "
+            className="features-div  flex-col justify-center items-center w-[38%] "
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"

@@ -2,7 +2,10 @@ import React from "react";
 import "./MyProjectsSection.css";
 import TitleComponent from "../TitleComponent/TitleComponent";
 import ProjectCard from "../ProjectCard/ProjectCard";
-import img1 from "../../assets/Images/project1.png";
+import img1 from "../../assets/Images/porta.png";
+import img2 from "../../assets/Images/luxeshop.png";
+import img3 from "../../assets/Images/data.png";
+import img4 from "../../assets/Images/stream.png";
 import {containerVariants} from "../Variants/Variants"
 import { motion } from "framer-motion";
 export default function MyProjectsScetion() {
@@ -13,7 +16,7 @@ export default function MyProjectsScetion() {
         title="My Projects"
         typeClass="flex flex-col items-center justify-center text-center "
       />
-      <motion.div className="my-projects-div flex justify-center items-center py-10 gap-7"
+      <motion.div className="my-projects-div flex justify-center items-center py-10 gap-7 w-full flex-wrap"
        variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -25,17 +28,17 @@ export default function MyProjectsScetion() {
         <ProjectCard
           img={img1}
           projectTitle="PORTA"
-          description="loremhhjjkkll"
+          description="A portfolio builder & talent discovery platform. Built with React.js - Tailwind CSS - Framer motion - Context API."
         />
           <ProjectCard
-          img={img1}
-          projectTitle="PORTA"
-          description="loremhhjjkkll"
+          img={img2}
+          projectTitle="LUXEShop"
+          description="Mini online shop & admin dashboard using React.js - context API - Framer motion - Recharts."
         />
           <ProjectCard
-          img={img1}
-          projectTitle="PORTA"
-          description="loremhhjjkkll"
+          img={img3}
+          projectTitle="Datawarehouse"
+          description="Datawarehouse is One-Page-Website using HTML5 - CSS3 -  Bootstrap featuring a sleek responsive design."
         />
       </motion.div>
     </section>

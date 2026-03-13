@@ -8,7 +8,7 @@ export default function NavBar() {
       <nav className="nav-bar w-[97%] px-10 py-4 glass-effect fixed mt-30 flex justify-between items-center z-100">
        
         
-        <h1 className="logo gradient-text ">Zeinab Salman.</h1>
+        <h1 className="logo gradient-text ">Dev.Zeinab♥  </h1>
         <ul className="flex items-center justify-center gap-4 text-2xl ">
           <li className="cursor-pointer">
             <Link to="about" smooth={true} duration={500}>

@@ -17,7 +17,7 @@ export default function ButtonComponent({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", stiffness: 400, damping: 10 }}
-      className={` ${typeclass}  ${padding} flex justify-center items-center gap-2 transition-colors  cursor-pointer text-2xl`}
+      className={` ${typeclass}  ${padding} flex justify-center items-center gap-2 transition-colors  cursor-pointer text-2xl  rounded-bl-[20px]  rounded-tr-[20px] `}
       onClick={onClick}
     >
     
