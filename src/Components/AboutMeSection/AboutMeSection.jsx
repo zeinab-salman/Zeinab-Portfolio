@@ -42,7 +42,7 @@ export default function AboutMeSection() {
             <div className="flex mt-5">
               <TechRadar />
               <h3 className=" gradient-text text-3xl ml-4 ">
-                Education & Languages
+                Educational Journey & Languages.
               </h3>
             </div>
             <p className="about-info mt-5 w-full text-2xl text-gray-500">

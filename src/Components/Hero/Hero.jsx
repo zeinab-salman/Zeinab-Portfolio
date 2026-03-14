@@ -7,7 +7,7 @@ import { loadSlim } from "@tsparticles/slim";
 import { Link } from "react-scroll";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import TitleComponent from "../TitleComponent/TitleComponent";
-
+import pdfURL from "../../assets/Images/cv.pdf"
 export default function Hero() {
   const [init, setInit] = useState(false);
   useEffect(() => {
@@ -20,8 +20,6 @@ export default function Hero() {
   const particlesLoaded = (container) => {
     console.log("loaded", container);
   };
-
-  const pdfURL = "../../assets/Images/cv.pdf";
 
   return (
     <RevealSection>

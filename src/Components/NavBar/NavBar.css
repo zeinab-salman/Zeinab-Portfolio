@@ -23,9 +23,13 @@
   }
   .nav-bar-open {
     display: flex;
+  
+  }
+  .nav-bar-open ul li {
+    font-size: 1.4rem;
   }
   .logo {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .list-nav {
     display: none;

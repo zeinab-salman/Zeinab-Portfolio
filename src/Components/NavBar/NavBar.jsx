@@ -47,7 +47,7 @@ export default function NavBar() {
       </nav>
 
       <nav
-        className={`nav-bar-open   w-[97%] px-5 py-2 glass-effect fixed mt-20 flex flex-col justify-between items-center z-100  ${navOpen ? " mt-70" : ""}  `}
+        className={`nav-bar-open   w-[97%] px-5 py-2 glass-effect fixed mt-20 flex flex-col justify-between items-center z-100  ${navOpen ? " mt-80" : ""}  `}
       >
         <div className="  flex  justify-between items-center w-full">
           <h1 className="logo gradient-text w-max ">Dev.Zeinab♥ </h1>
@@ -57,7 +57,7 @@ export default function NavBar() {
           />
         </div>
         <ul
-          className={`w-full mt-4 flex flex-col  items-start justify-center gap-4 text-2xl ${navOpen ? "open " : "list-nav"}  `}
+          className={`w-full mt-2 flex flex-col  items-start justify-center gap-4 text-2xl ${navOpen ? "open " : "list-nav"}  `}
         >
           <li className="cursor-pointer">
             <Link to="home" smooth={true} duration={500}>

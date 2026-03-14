@@ -11,9 +11,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { BiSolidPhone } from "react-icons/bi";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import RevealSection from "../RevealSection/RevealSection";
+import pdfURL from "../../assets/Images/cv.pdf"
 export default function ContactMeSection() {
-   const pdfURL = "../../assets/Images/cv.pdf";
   return (
+    <RevealSection>
     <section
       id="contact"
       className="contact-me-section  flex flex-col justify-center items-center  w-full px-10 py-10"
@@ -116,5 +118,6 @@ export default function ContactMeSection() {
         </div>
       </div>
     </section>
+    </RevealSection>
   );
 }
