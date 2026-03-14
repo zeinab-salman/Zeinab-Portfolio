@@ -9,7 +9,10 @@ import { motion } from "framer-motion";
 export default function MyToolkitSection() {
   return (
     <RevealSection>
-      <section className="my-toolkit-section flex flex-col justify-center items-center w-full px-10 py-10">
+      <section
+        id="skills"
+        className="my-toolkit-section flex flex-col justify-center items-center w-full px-10 py-10"
+      >
         <TitleComponent
           subTitle="TECHNOLOGIES"
           title="My Toolkit"

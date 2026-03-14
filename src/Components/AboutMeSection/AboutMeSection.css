@@ -1,26 +1,28 @@
-.about-me-section h2{
-    font-size: 4rem;
+.about-me-section h2 {
+  font-size: 4rem;
 }
-@media (max-width:1000px) {
-  .about-div{
-    width: 100% !important;
-  }  
-  .features-div{
+@media (max-width: 1000px) {
+  .about-div {
     width: 100% !important;
   }
-  .about-me-section{
+  .features-div {
+    width: 100% !important;
+  }
+  .about-me-section {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
   }
-  .about-div{
-     padding-left: 20px;
+  .about-div {
+    padding-left: 20px;
     padding-right: 20px;
   }
- /*  .about-info{display: none;}*/
- .about-info {
-  font-size: 1.4rem;
- }
-   .about-div h3{font-size: 1.4rem;
+  /*  .about-info{display: none;}*/
+
+  .about-div h3 {
+    font-size: 1.4rem;
+  }
+  .about-div p {
+    font-size: 1.2rem;
   }
 }

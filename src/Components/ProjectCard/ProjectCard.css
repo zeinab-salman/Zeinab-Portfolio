@@ -1,19 +1,19 @@
-.card-title{
-    color:#d4a76a ;
+.card-title {
+  color: #d4a76a;
 }
-.card-description{
-    color: #a876aa !important;
+.card-description {
+  color: #a876aa !important;
 }
-@media (max-width:1000px) {
-   .project-card{
+@media (max-width: 1000px) {
+  .project-card {
     width: 40% !important;
-   } 
+  }
 }
-@media (max-width:800px) {
-   .project-card{
+@media (max-width: 800px) {
+  .project-card {
     width: 100% !important;
-   } 
-   .project-card p{
+  }
+  .project-card p {
     font-size: 1.2rem;
-   }
+  }
 }

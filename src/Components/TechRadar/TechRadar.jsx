@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./TechRadar.css"
+import "./TechRadar.css";
 const TechRadar = () => {
   // ثلاث دوائر متتابعة ليعطي شكل الرادار الحقيقي
   const rings = [0, 1, 2];
@@ -38,4 +38,4 @@ const TechRadar = () => {
   );
 };
 
-export default TechRadar; 
+export default TechRadar;

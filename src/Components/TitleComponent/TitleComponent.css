@@ -1,15 +1,13 @@
-.title-component h5{
-    color: #d4a76a;
-  
+.title-component h5 {
+  color: #d4a76a;
 }
-@media (max-width:600px) {
-      .title-component h2{
-font-size:2rem !important;
+@media (max-width: 600px) {
+  .title-component h2 {
+    font-size: 2rem !important;
 
-  text-align: center;
-
-   }
-   .title-component h5{
+    text-align: center;
+  }
+  .title-component h5 {
     font-size: 1.4rem;
-   }
+  }
 }

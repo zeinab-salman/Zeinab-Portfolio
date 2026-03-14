@@ -7,9 +7,12 @@
 .yello {
   background-color: #d4a76a;
   box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.4);
-
 }
-@media (max-width:500px) {
-  .no-color {font-size: 1.2rem;}
-  .yello {font-size: 1.2rem;}
+@media (max-width: 500px) {
+  .no-color {
+    font-size: 1.2rem;
+  }
+  .yello {
+    font-size: 1.2rem;
+  }
 }

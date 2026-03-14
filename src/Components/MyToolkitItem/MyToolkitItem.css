@@ -1,34 +1,32 @@
- .yello1{
-color: #d4a76a;
-border: 1px solid #d4a76a;
+.yello1 {
+  color: #d4a76a;
+  border: 1px solid #d4a76a;
 }
-  .purble{
-color: #a876aa;
-border: 1px solid #a876aa;
+.purble {
+  color: #a876aa;
+  border: 1px solid #a876aa;
 }
-  .pink{
-color: #e0c3fc;
-border: 1px solid #e0c3fc;
-
+.pink {
+  color: #e0c3fc;
+  border: 1px solid #e0c3fc;
 }
-.toolkit-item .icon-skill{
+.toolkit-item .icon-skill {
   font-size: 2rem;
-  
 }
-@media (max-width:1000px) {
-  .toolkit-item .icon-skill{
-font-size: 3rem;
+@media (max-width: 1000px) {
+  .toolkit-item .icon-skill {
+    font-size: 3rem;
   }
- }
-@media (max-width:600px) {
-
-.toolkit-item{
-  width: 45%;
-  padding:10px 10px;
-  flex-direction: column;
-  border: none !important;
-width: 40%;}
- .toolkit-item p{font-size: 1.2rem;}
-
-
+}
+@media (max-width: 600px) {
+  .toolkit-item {
+    width: 45%;
+    padding: 10px 10px;
+    flex-direction: column;
+    border: none !important;
+    width: 40%;
+  }
+  .toolkit-item p {
+    font-size: 1.2rem;
+  }
 }

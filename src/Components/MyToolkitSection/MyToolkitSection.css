@@ -1,13 +1,13 @@
-.my-toolkit-section h2{
-    font-size: 4rem;
+.my-toolkit-section h2 {
+  font-size: 4rem;
 }
-@media (max-width:1000px) {
-    .toolkit-div{
-        justify-content: center !important;
-    }
-    .my-toolkit-section{
-         padding-left: 20px;
+@media (max-width: 1000px) {
+  .toolkit-div {
+    justify-content: center !important;
+  }
+  .my-toolkit-section {
+    padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
-    }
+  }
 }

@@ -10,8 +10,8 @@
   flex-direction: column;
   align-items: center;
 }
-.social{
-    font-size: 3rem;
+.social {
+  font-size: 3rem;
 }
 .yello11 {
   color: #d4a76a;
@@ -28,12 +28,12 @@
   transition: 1s;
 }
 @media (max-width: 1000px) {
-  .contact-me-section{
+  .contact-me-section {
     padding-top: 0px;
   }
   .social {
     gap: 2px !important;
-  
+
     flex-wrap: wrap !important;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    
   }
   .email-div,
   .address-div,
@@ -57,11 +56,11 @@
     justify-content: start;
     align-items: center;
     margin-bottom: 10px;
-
   }
-  .email-div p,.address-div p, .phone-div p{
-  font-size: 23px;
-  
+  .email-div p,
+  .address-div p,
+  .phone-div p {
+    font-size: 23px;
   }
   .social1,
   .social2 {
@@ -86,25 +85,26 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-.let-us-connect-div{
-    margin-top:30px;
-}
-.contact-me-section button{
-    align-self: self-start;
-}
-}
-@media (max-width:400px) {
-  .email-div p,.address-div p, .phone-div p{
-  font-size: 1.2rem;
-  
+  .let-us-connect-div {
+    margin-top: 30px;
   }
-   .yello11{
+  .contact-me-section button {
+    align-self: self-start;
+  }
+}
+@media (max-width: 400px) {
+  .email-div p,
+  .address-div p,
+  .phone-div p {
+    font-size: 1.2rem;
+  }
+  .yello11 {
     font-size: 2rem !important;
   }
-  .let-us-connect-div h3{
-    font-size:1.4rem ;
+  .let-us-connect-div h3 {
+    font-size: 1.4rem;
   }
-  .icon-div h5{
-    font-size:1.2rem !important}
-  
+  .icon-div h5 {
+    font-size: 1.2rem !important;
+  }
 }

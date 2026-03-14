@@ -2,12 +2,7 @@ import React from "react";
 import "./ButtonComponent.css";
 import { motion } from "framer-motion";
 
-export default function ButtonComponent({
-  text,
-  typeclass,
-  onClick,
-  padding,
-}) {
+export default function ButtonComponent({ text, typeclass, onClick, padding }) {
   return (
     <motion.button
       whileHover={{
@@ -20,7 +15,6 @@ export default function ButtonComponent({
       className={` ${typeclass}  ${padding} flex justify-center items-center gap-2 transition-colors  cursor-pointer text-2xl  rounded-bl-[20px]  rounded-tr-[20px] `}
       onClick={onClick}
     >
-    
       {text}
     </motion.button>
   );

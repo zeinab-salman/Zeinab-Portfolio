@@ -13,14 +13,17 @@ import RevealSection from "../RevealSection/RevealSection";
 export default function AboutMeSection() {
   return (
     <RevealSection>
-      <section className=" about-me-section  flex flex-col justify-center items-center w-full px-10 py-10 ">
+      <section
+        id="about"
+        className=" about-me-section  flex flex-col justify-center items-center w-full px-10 py-10 "
+      >
         <TitleComponent
           subTitle=" THE STORY"
           title="About Me"
           typeClass="flex flex-col items-center justify-center text-center "
         />
-        <div className="flex justify-between items-start mt-10 flex-wrap gap-5">
-          <div className="about-div flex flex-col justify-center items-start glass-effect px-10 pt-10 pb-20  w-[60%]">
+        <div className="flex justify-between items-start mt-5 flex-wrap gap-5">
+          <div className="about-div flex flex-col justify-center items-start glass-effect px-10 pt-5 pb-5  w-[60%]">
             <div className="flex ">
               <TechRadar />
               <h3 className=" gradient-text text-3xl ml-4">
@@ -28,11 +31,7 @@ export default function AboutMeSection() {
               </h3>
             </div>
             <p className="about-info mt-5 w-full text-2xl text-gray-500">
-              I am a detail-oriented Informatics Engineering graduate with a
-              passion for bridging the gap between complex logic and elegant
-              design. My journey in tech is fueled by a commitment to "Crafting
-              Digital Elegance," ensuring every line of code translates into a
-              seamless user experience. With hands-on experience from Focal X
+              I'm Front End Developer, With hands-on experience from Focal X
               Agency and a deep foundation in Informatics (graduating with an
               excellent 95% grade), I specialize in building responsive,
               interactive web applications. I thrive on turning Figma designs
@@ -40,7 +39,22 @@ export default function AboutMeSection() {
               Framer Motion. My goal is always the same: to deliver scalable,
               high-performance solutions that don’t just work—they inspire.
             </p>
+            <div className="flex mt-5">
+              <TechRadar />
+              <h3 className=" gradient-text text-3xl ml-4 ">
+                Education & Languages
+              </h3>
+            </div>
+            <p className="about-info mt-5 w-full text-2xl text-gray-500">
+              Combining a solid technical background as an Informatics
+              Engineering graduate with current studies in Business Management,
+              I strive to build scalable software solutions with a strategic
+              mindset. Fluent in Arabic, I am also communicative in English at
+              an intermediate level and am currently developing my skills in
+              German."
+            </p>
           </div>
+
           <motion.div
             className="features-div  flex-col justify-center items-center w-[38%] "
             variants={containerVariants}

@@ -1,11 +1,33 @@
-.nav-bar ul li{
-color: #d4a76a;
+.nav-bar ul li,
+.nav-bar-open ul li {
+  color: #d4a76a;
+}
 
+.logo {
+  color: #a876aa;
+  font-size: 2rem;
 }
-.logo{
-    color:#a876aa ;
-    font-size: 2rem;
+.nav-icon {
+  color: #a876aa;
+  font-size: 2rem;
 }
-@media (max-width:1000px) {
-    .nav-bar{display: none;}
+.nav-bar-open {
+  display: none;
+}
+.open {
+  display: flex;
+}
+@media (max-width: 1000px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar-open {
+    display: flex;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+  .list-nav {
+    display: none;
+  }
 }
