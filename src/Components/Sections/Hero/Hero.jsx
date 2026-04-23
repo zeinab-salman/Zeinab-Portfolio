@@ -88,7 +88,7 @@ export default function Hero() {
             src={img}
             alt="profile-photo"
             className="profile-img block w-120 h-120 object-cover aspect-square mb-10 border-b-2 border-[#d4a76a]
-                       max-[1000px]:w-88! max-[1000px]:h-88! max-[1000px]:mb-0"
+                       max-[1000px]:w-80! max-[1000px]:h-88! max-[1000px]:mb-0"
           />
         </div>
       </section>

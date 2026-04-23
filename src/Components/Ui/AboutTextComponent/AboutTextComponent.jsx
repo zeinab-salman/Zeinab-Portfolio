@@ -9,7 +9,7 @@ export default function AboutTextComponent({ textTitle, textContent, text1 }) {
         <TechRadar />
         <h3 className="gradient-text text-3xl ml-4 font-bold">{textTitle}</h3>
       </div>
-      <p className="about-info mt-5 w-full text-2xl text-gray-500 max-[800px]:text-[1.2rem]">
+      <p className="about-info mt-5 w-full text-2xl text-[#e0c3fc]  max-[800px]:text-[1.2rem]">
         {textContent}
       </p>
     </motion.div>
