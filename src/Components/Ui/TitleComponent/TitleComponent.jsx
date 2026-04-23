@@ -8,7 +8,7 @@ export default function TitleComponent({ subTitle, title, text, typeClass }) {
       <h2 className="gradient-text max-[600px]:text-[2rem]! max-[600px]:text-center">
         {title}
       </h2>
-      <p className="text-2xl w-full max-w-2xl text-[#e0c3fc] ">{text}</p>
+      <p className="text-2xl w-full max-w-2xl text-[#a876aa] ">{text}</p>
     </div>
   );
 }

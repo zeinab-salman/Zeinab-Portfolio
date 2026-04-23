@@ -16,7 +16,7 @@ export default function ProjectCard({ img, projectTitle, description, href }) {
       <h5 className="card-title text-3xl text-[#d4a76a] max-[800px]:text-[1.4rem]">
         {projectTitle}
       </h5>
-      <p className="card-description text-2xl text-[#e0c3fc]! max-[800px]:text-[1.2rem]">
+      <p className="card-description text-2xl text-[#a876aa]! max-[800px]:text-[1.2rem]">
         {description}
       </p>
 

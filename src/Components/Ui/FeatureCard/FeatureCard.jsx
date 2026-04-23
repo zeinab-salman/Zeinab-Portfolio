@@ -22,7 +22,7 @@ export default function FeatureCard({ icon: Icon, feature, text, color }) {
         <h5 className="text-2xl max-[500px]:text-[1.4rem] font-semibold">
           {feature}
         </h5>
-        <p className="text-[#e0c3fc] text-[1.3rem] max-[500px]:text-[1.1rem]">
+        <p className="text-[#a876aa] text-[1.3rem] max-[500px]:text-[1.1rem]">
           {text}
         </p>
       </div>
